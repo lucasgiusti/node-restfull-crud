@@ -57,7 +57,7 @@ var isAuthorized = accountRoute.isAuthorized;
 
 
 //************************************************************
-var connectionString = 'mongodb://MongoRestFullCRUD:TIydpiQnbaNPBRDiy_XzwwHLmWDBS5Oh4gCB.J6E0K0-@ds041157.mongolab.com:41157/MongoRestFullCRUD';
+var connectionString = 'mongodb://localhost:27017/MongoRestFullCRUD';
 mongoose.connect(connectionString);
 
 accountRoute.CreateAdmUser();
