@@ -155,11 +155,11 @@
             data: accountData.toJsonString(),
             dataType: "json",
             success: function (status) {
-                utils.showAlert('Success!', 'Success', 'alert-success');
+                utils.showAlert('Success!', 'access successfully generated', 'alert-success');
             },
 
             error: function (error) {
-                utils.showAlert('Erro', $.parseJSON(error.responseText).error, 'alert-error');
+                utils.showAlert('Error', $.parseJSON(error.responseText).error, 'alert-error');
             }
         });
     };

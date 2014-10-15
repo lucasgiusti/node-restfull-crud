@@ -114,7 +114,7 @@
                 utils.showAlert('Success!', mensagem, 'alert-success');
             },
             error: function (err, message) {
-                utils.showAlert('Erro', $.parseJSON(message.responseText).error, 'alert-error');
+                utils.showAlert('Error', $.parseJSON(message.responseText).error, 'alert-error');
             }
 
         });
@@ -130,7 +130,7 @@
             },
             error: function (err, message) {
                 $("#delUser", this.el).hide(function () {
-                    utils.showAlert('Erro', $.parseJSON(message.responseText).error, 'alert-error');
+                    utils.showAlert('Error', $.parseJSON(message.responseText).error, 'alert-error');
                 });
             }
         });
