@@ -7,9 +7,9 @@
 http://noderestfullcrud.azurewebsites.net/
 <br/>
 <br/>
- usuário: admin
+ user: admin
 <br/>
- senha: admin
+ password: admin
 <br/>
 <br/>
 # References:
